@@ -1,64 +1,113 @@
-# Greenlight Workplace Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web application called AI Workplace Productivity Assistant.
+**Author:** Evelyn Gomes  
+**Project Type:** Individual Project  
+**Status:** Frontend Developed | AI Integration In Progress
 
-Create a professional dashboard with a clean green and gold colour scheme, sidebar navigation, and a polished, user-friendly interface.
+---
 
-Core features:
+## 1. Project Overview
 
-Smart Email Generator: Generate personalised, professional emails based on user instructions. Include Formal, Friendly, and Persuasive tones. Allow users to edit and copy generated emails.
+The **AI Workplace Productivity Assistant** is a web-based application designed to help professionals simplify everyday workplace tasks and improve productivity through AI-powered tools.
 
-Meeting Notes Summarizer: Accept lengthy meeting notes and generate clear summaries, key decisions, action items, assigned tasks, and deadlines. Allow users to edit and copy results.
+The application features a modern dashboard with three main productivity tools: a Smart Email Generator, Meeting Notes Summarizer, and AI Workplace Chatbot.
 
-AI Workplace Chatbot: Create an interactive workplace assistant that responds intelligently to user questions and workplace-related prompts with relevant, contextual, non-generic answers.
+The project explores how artificial intelligence can support workplace communication, meeting documentation, and administrative activities.
 
-Design requirements:
+## 2. Features Implemented
 
-Modern SaaS dashboard with sidebar navigation.
+### Smart Email Generator
+- Interface for generating professional emails.
+- Three communication tones: Formal, Friendly, and Persuasive.
+- Editable email output interface.
+- Copy-to-clipboard functionality.
 
-Green and gold branding with a white/light background.
+### Meeting Notes Summarizer
+- Interface for entering lengthy meeting notes.
+- Structured summary presentation.
+- Sections for key decisions, action items, and deadlines.
+- Editable output interface.
 
-Responsive layouts for desktop, tablet, and mobile.
+### AI Workplace Chatbot
+- Interactive chatbot interface.
+- Workplace-related prompt input.
+- Conversation-style response display.
 
-Clean cards, icons, input fields, and clear action buttons.
+### Dashboard and User Interface
+- Modern SaaS-inspired dashboard.
+- Sidebar navigation.
+- Responsive design for desktop, tablet, and mobile.
+- Professional green and gold colour scheme.
+- Responsible AI disclaimer.
 
-Editable AI-generated outputs.
+**AI Integration Status:** Google Gemini API integration was explored to enable real-time AI-generated responses. However, a 401 authentication error prevented successful completion of the integration. Live AI generation is therefore not currently operational.
 
-Copy-to-clipboard functionality.
+## 3. Technologies and Tools Used
 
-Include a responsible AI disclaimer reminding users to verify AI-generated information.
+- **Lovable:** AI-powered application development.
+- **React:** Frontend development.
+- **Tailwind CSS:** Styling and responsive layouts.
+- **Google Gemini API:** Explored for AI integration.
+- **GitHub:** Source code hosting and project documentation.
 
-Technical requirements:
+## 4. Setup Instructions
 
-Frontend only. No backend, database, authentication, or paid external services.
+### Prerequisites
+- Node.js
+- npm
+- A modern web browser
+- Git (optional)
 
-Use React and Tailwind CSS.
+### Installation
 
-Use browser-based state management.
+1. Clone the repository:
 
-Do not use mock AI responses, hardcoded examples, or repetitive generic outputs.
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
 
-Structure the application so an AI API can be connected in the future. If no AI API is configured, clearly explain that live AI generation requires an API connection rather than pretending to generate real AI responses.
+2. Navigate to the project directory:
 
-Prioritise functionality, simplicity, professional design, and a complete working frontend. Build all three features within one application.
+   ```bash
+   cd ai-workplace-productivity-assistant
+   ```
 
-This project was built with [Lovable](https://lovable.dev).
+3. Install the project dependencies:
 
-## Build with Lovable
+   ```bash
+   npm install
+   ```
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/83fdb239-6db6-4ed7-b568-301de1afee86).
+4. Start the development server:
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+   ```bash
+   npm run dev
+   ```
 
-## Development
+5. Open the local URL displayed in your terminal to view the application.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+**Note:** Installation commands may vary depending on the exported project's configuration.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+### AI Configuration
+
+The application was designed with the intention of integrating Google's Gemini API for AI-powered functionality.
+
+A successful API connection is still required to enable live AI responses. The current version does not have a working AI connection.
+
+API keys should never be hardcoded into publicly accessible frontend code.
+
+## 5. Author
+
+**Evelyn Gomes**
+
+- Role: https://greenlight-workplace-companion.lovable.app/email
+- Project: AI Workplace Productivity Assistant
+- Contribution: Application concept, frontend development, interface design, feature planning, and AI integration exploration.
+
+## 6. Project Objective
+
+The objective of this project is to explore how artificial intelligence can be incorporated into workplace productivity tools to simplify routine professional tasks, improve communication, support meeting documentation, and encourage more efficient administrative workflows.
+
+---
+
+*Developed by Evelyn Gomes as an individual project.*
